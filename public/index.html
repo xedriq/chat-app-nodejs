@@ -4,9 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/styles.min.css" />
+    <title>SPDFRK Chat App</title>
   </head>
   <body>
-    <h1>Chat App</h1>
+    <div class="centered-form">
+      <div class="centered-form__box">
+        <h1>Join SPDFRK Chat App</h1>
+        <form action="/chat.html">
+          <label for="username">Display Name</label>
+          <input
+            type="text"
+            name="username"
+            placeholder="Display Name"
+            required
+          />
+          <label for="room">Room</label>
+          <input type="text" name="room" placeholder="Room" required />
+          <button>Join</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
